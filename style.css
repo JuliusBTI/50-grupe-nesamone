@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+h2 {
+    font-size: 21px;
+}
+.topLine {
+    width: 100%;
+    height: 30px;
+    background-color:  #60267f;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+}
+
+.topLinePara {
+    font-size: 8px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    border-bottom:3px solid rgb(220, 220, 220, 0.317)
+}
+
+.headerContainer img {
+    width: 100px;
+}
+
+.navigationContainer nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.navigationContainer nav ul {
+    display: flex;
+    gap: 20px ;
+}
+
+.navigationContainer nav ul li {
+    list-style: none;
+}
+
+.navigationContainer nav ul li a {
+
+    text-decoration: none;
+    font-size:  12 px;
+    color: black ;
+}
+
+.headerButton {
+    border: none;
+    background: transparent;
+    border: 2px solid #9A54BC ;
+    color: #9A54BC;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.learnMore {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.headerButton:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.topSecton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.topSectionHeader {
+    font-size: 24px ;
+    text-align: center;
+    color: #2B0236;
+}
+
+.topSectionButton {
+    background-color:#9A54BC;
+    padding: 10px 15px;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.topSectionButton:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+.elipsesContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: px;
+    height: 500px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.smallElipse {
+    position: absolute;
+    top: 90px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 110px;
+}
+
+.collab {
+    position: absolute;
+    top: 210px
+}   
+
+.elipseBtn {
+    bottom: 100px;
+    padding: 3px 7px;
+    font-size: 10px;
+    background-color: white;
+    border: 1.5px solid #9A54BC ;
+    border-radius: 3px; color: #60267f;
+    cursor: pointer;
+}
+
+.elipseBtn:hover {
+    background-color:#9A54BC;
+    color:white ;
+}
+
+.iconsContainer {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icons {
+    width: 70%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.bigPhoneContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vendorAppAndPhoneContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+}
+
+.paragraph {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.vendorAppPhone{
+    width: 50%;
+    
+}
+.paragraphBtnContainer {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 9px 0px rgb(0, 0, 0, 0.26);
+    -webkit-box-shadow: 1px 8px 9px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 1px 8px 9px 0px rgba(0,0,0,0.26);
+}
+
+.paragraphBtnContainer>button {
+    width: 50%;
+    padding: 5px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.paragraphBtnContainer>button:hover {
+    border: #9A54BC 2px solid;
+    border-radius: 3px; 
+    background-color: #60267f;
+    color: white;
+}
+
+.paragraphContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vendorPara {
+    background-color: #F2F2F2;
+    width: 95%;
+    padding: 17px 15px;
+    font-size: 10px ;
+}
+
+.vendorPara span {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.vendorAppPhone {
+    display: flex;
+    justify-content: center;
+}
+
+.vidioConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.vidioConteiner p{
+    width: 75%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
